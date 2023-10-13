@@ -1,0 +1,187 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+textarea {
+    resize: vertical;
+    height: 17px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-link {
+    color: #939393;
+}
+
+footer {
+    background-color: #3c4146;
+}
+
+footer ul {
+    list-style-type: none;
+    color: white;
+}
+
+.mensajeAyuda {
+    color: #6c757d;
+}
+
+.bg-customGreen {
+    background-color: #28a745;
+}
+
+.gc-slogan {
+    background-color: white;
+}
+
+.img-home {
+    background-image: url(../img/1366_2000.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    position: relative;
+    height: 600px;
+    max-width: 100%;
+}
+
+.text-over-img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.p-middle-text {
+    display: inline-block;
+    background-color: #3092fc;
+}
+
+.logo-no-centro {
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    height: 50px; 
+}
+
+.video-container {
+    height: 600px;
+}
+
+iframe {
+    width: 90%;
+    height: 100%;
+}
+
+@media (max-width: 1399px) {
+    .logo-no-centro {
+        display: none !important;
+    }
+}
+
+/* Pág 2 - Quiénes somos? */
+
+.img-quienessomos {
+    background-image: url(../img/IMG_1298.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 23%;
+    position: relative;
+    height: 600px;
+    max-width: 100%;
+}
+
+.text-over-img-quienes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.valores-titulos {
+    padding: 5px;
+}
+
+.logo-valores {
+    width: 25%;
+}
+
+@media (max-width: 768px) {
+    .logo-valores {
+        display: none !important;
+    }
+}
+
+/* Pág 3 - Proyecto */
+
+.img-proyecto {
+    background-image: url(../img/depositphotos_11634443-stock-photo-little-users.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    position: relative;
+    height: 600px;
+    max-width: 100%;
+}
+
+.cita {
+    -webkit-box-shadow: -6px 10px 43px -7px rgba(102,102,102,1);
+    -moz-box-shadow: -6px 10px 43px -7px rgba(102,102,102,1);
+    box-shadow: -6px 10px 43px -7px rgba(102,102,102,1);
+}
+
+.levantando-child-proyecto {
+    width: 100%;
+}
+
+.proyecto-imgs {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .contenedor-proyecto-img-card {
+        display: none !important;
+    }
+}
+
+/* Pág 4 - Actividades */
+.img-actividades {
+    background-image: url(../img/3a3b4103-fb66-4cfd-8ab5-c625d9a1b5f3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    position: relative;
+    height: 600px;
+    max-width: 100%;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
